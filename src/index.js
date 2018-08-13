@@ -2,7 +2,7 @@ import {drawShoeWithGradient, drawWaistWithGradient, drawPersonWithGradient} fro
 import {merge} from './helpers';
 
 // https://github.com/ankane/chartkick.js/blob/master/src/index.js
-let config = (typeof window !== "undefined" && window.Chartkick) || {};
+let config = (typeof window !== "undefined" && window.CircularSliders) || {};
 
 let isMouseDown = false;
 
