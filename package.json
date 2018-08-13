@@ -1,0 +1,42 @@
+{
+  "name": "circular-sliders",
+  "version": "1.0.0",
+  "description": "Draw concentric circles and responsively set each value.",
+  "main": "dist/circular-sliders.js",
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint src",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/speterlin/circular-sliders.js.git"
+  },
+  "keywords": [
+    "circular",
+    "sliders",
+    "responsive",
+    "sliders",
+    "form",
+    "sliders"
+  ],
+  "author": "Sebastian Peterlin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/speterlin/circular-sliders.js/issues"
+  },
+  "homepage": "https://github.com/speterlin/circular-sliders.js",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "rollup": "^0.64.1",
+    "rollup-plugin-eslint": "^5.0.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "npm": "^6.3.0"
+  }
+}
