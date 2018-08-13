@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Draw concentric circles and responsively set each value.",
   "main": "dist/circular-sliders.js",
+  "module": "dist/circular-sliders.esm.js",
   "scripts": {
     "build": "rollup -c",
     "lint": "eslint src",

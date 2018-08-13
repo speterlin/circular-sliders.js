@@ -1,5 +1,6 @@
 import pkg from "./package.json";
 
+const input = "src/index.js";
 const banner =
 `/*
  * CircularSliders.js
@@ -10,12 +11,22 @@ const banner =
  */
 `;
 
-export default {
-  input: 'src/index.js',
-  output: {
-    name: 'CircularSliders',
-    file: pkg.main,
-    format: 'umd',
-    banner: banner
+export default [
+  {
+    input: input,
+    output: {
+      name: 'CircularSliders',
+      file: pkg.main,
+      format: 'umd',
+      banner: banner
+    }
+  },
+  {
+    input: input,
+    output: {
+      file: pkg.module,
+      format: "es",
+      banner: banner
+    }
   }
-};
+];
