@@ -37,7 +37,5 @@
   "files": [
     "dist"
   ],
-  "dependencies": {
-    "npm": "^6.3.0"
-  }
+  "dependencies": {}
 }
