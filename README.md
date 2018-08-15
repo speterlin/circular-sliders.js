@@ -29,7 +29,7 @@ Slider options:
 | step            | Float   | 10                                  | The amount the value is incremented                    |
 | units           | String  | ""                                  | The units your value is displayed in                   |
 | priceUnits      | String  | ""                                  | Adds price ('$', '€', '£' ...) before value            |
-| radius          | Float   | 40 or (previous slider radius + previous slider lineWidth + default slider lineWidth)  | The radius of your slider  |
+| radius          | Float   | Min(canvas.width, canvas.height) / 4 or (previous slider radius + previous slider lineWidth + default slider lineWidth)  | The radius of your slider  |
 | lineWidth       | Float   | 5                                   | The slider and arc width                               |
 | strokeColor     | String  | "#D3D3D3"                           | The color of the dashes on the slider                  |
 | ballColor       | String  | "#000000"                           | The color of the slider ball                           |

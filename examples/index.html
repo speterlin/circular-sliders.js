@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Slider</title>
+    <style>
+      html, body, canvas {
+        padding: 0px;
+        margin: 0px;
+      }
+    </style>
+    <script type="text/javascript" src="../dist/circular-sliders.js"></script>
+  </head>
+
+  <body>
+    <div id="drawing" style="border:1px solid;margin: 20px;height: 300px; width: 600px;"></div>
+    <script type="text/javascript">
+      new CircularSliders.Canvas("drawing", [{step: 20}, {name: "foo-bar"}]);
+    </script>
+  </body>
+</html>

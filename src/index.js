@@ -120,7 +120,6 @@ function moveBallToStep(canvas) {
   let slider = canvas.selectedSlider;
   slider.angle = angleForValue(slider);
   [slider.ball.x, slider.ball.y] = ballLocationForAngle(slider);
-  console.log(canvas);
   canvas.__render();
 }
 
