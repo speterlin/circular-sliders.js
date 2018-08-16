@@ -1,6 +1,6 @@
 {
   "name": "circular-sliders",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Draw concentric circles and responsively set each value.",
   "main": "dist/circular-sliders.js",
   "module": "dist/circular-sliders.esm.js",
