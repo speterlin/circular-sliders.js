@@ -209,7 +209,7 @@ class CircularSlider {
     const arcSegment = 2 * Math.PI * this.radius / (this.range / this.step);
     this.lineDashLength = (2 / 3) * arcSegment;
     this.lineDashSpacing = (1 / 3) * arcSegment;
-    this.ball = new Ball(this, options.ballColor);
+    this.ball = new Ball(this, settings.ballColor);
   }
 
 }

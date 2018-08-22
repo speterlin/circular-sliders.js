@@ -13,8 +13,14 @@
 
   <body>
     <div id="drawing" style="border:1px solid;margin: 20px;height: 300px; width: 600px;"></div>
+    <br>
+    <div id="drawing" style="border:1px solid;margin: 20px;height: 300px; width: 600px;"></div>
+    <br>
+    <div class="drawing" style="border:1px solid;margin: 20px;height: 300px; width: 600px;"></div>
+    <br>
+    <div class="drawing" style="border:1px solid;margin: 20px;height: 300px; width: 600px;"></div>
     <script type="text/javascript">
-      new CircularSliders.Canvas("drawing", [{step: 20}, {name: "foo-bar"}]);
+      new CircularSliders.Canvas("drawing", [{type: "Plain"}, {type: "Shoe"}]);  
     </script>
   </body>
 </html>
